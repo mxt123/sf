@@ -5,3 +5,5 @@
 	left: 0px;
 	top: 0px;
 }
+
+canvas { display:block; }
