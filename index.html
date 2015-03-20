@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>http://www.codeproject.com/Articles/642499/Learn-JavaScript-Part-Create-a-Starfield</title>
+			<link rel="stylesheet" href="styles.css">
+			<script type="text/javascript" src="starfield.js"></script>
+	</head>
+	<body>
+
+		<div id='container'>
+		</div>
+
+		<script type="text/javascript">
+			var container = document.getElementById('container');
+			var starfield = new Starfield();
+			starfield.initialise(container);
+			starfield.start();
+		</script>
+
+	</body>
+</html>
